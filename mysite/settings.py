@@ -25,7 +25,7 @@ SECRET_KEY = '5@#s0bi87e#2-oww+ho%gvyo!auvu$hs(sep&(q19nvg76z(m='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['kadija01.pythonanywhere.com']
 
 
 # Application definition
@@ -37,7 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog' ,
+    'blog',
 )
 
 MIDDLEWARE_CLASSES = (
